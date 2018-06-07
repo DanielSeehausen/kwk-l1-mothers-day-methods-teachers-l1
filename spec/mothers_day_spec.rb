@@ -14,5 +14,7 @@ describe "crazy_string.rb" do
       expect($stdout).to receive(:puts).with("Happy mothers day, Mom! I hope you have a great day!")
       mothers_day()
     end
+    
+  end
 
 end
