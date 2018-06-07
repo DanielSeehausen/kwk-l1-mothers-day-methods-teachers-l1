@@ -10,8 +10,6 @@ describe "crazy_string.rb" do
     
   it 'defaults to Mom when no name is passed in' do
     expect(mothers_day()).to eq("Happy Mother's Day, Mom!")
-    expect($stdout).to receive(:puts).with("Happy mothers day, Mom!")
-    mothers_day()
   end
   
 end
