@@ -3,7 +3,7 @@ require_relative './spec_helper'
 describe "mothers_day" do
 
   it 'accepts an argument of a name and prints out "Happy mothers day, <name>!"' do
-    expect($stdout).to receive(:puts).with("Happy mothers day, Tracy!")
+    expect(mothers_day).to receive(:puts).with("Happy mothers day, Tracy!")
     mothers_day("Tracy")
   end
   
