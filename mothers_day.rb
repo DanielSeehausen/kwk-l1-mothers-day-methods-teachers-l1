@@ -6,4 +6,4 @@ end
 
 
 ## Call your method below - use puts to see it in the terminal!
-mothers_day("Mom")
+puts mothers_day("Mom")
